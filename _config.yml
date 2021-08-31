@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            JunieBlog
+longtitle:        JunieBlog
+author:           Junyoung Kim
+email:            junyoung44@g.skku.edu
 description: >
-  Build Jekyll site with the GitBook style.
+  주니베리의 블로그
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://junieberry.github.io'
+baseurl:          '/junieblog'
 rss:              RSS
 
 toc:

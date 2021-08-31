@@ -2,4 +2,6 @@
 layout: home
 ---
 
-Make Jelly site have a GitBook look!
+안녕하세요! 
+
+주니베리의 블로그입니다 😄
