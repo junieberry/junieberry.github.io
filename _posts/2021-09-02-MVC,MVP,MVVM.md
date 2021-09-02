@@ -33,9 +33,9 @@ layout: post
 
 ## MVC
 
-![Model-View-Controller | Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png)
+![Model-View-Controller:Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/200px-MVC-Process.svg.png)
 
-**👊구조**
+### 👊구조
 
 **📌 Model**
 프로그램에서 사용되는 실제 데이터 및 데이터 조작 로직을 처리하는 부분이다. Model이 변하면 View를 업데이트한다.
@@ -67,7 +67,7 @@ layout: post
 ## MVP
 MVC의 View와 Model 사이의 의존성 문제를 해결하기 위해 파생된 디자인 패턴이다. 안드로이드 개발에서 가장 많이 사용된다고 한다.
 
-![Model-View-Presenter | Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/220px-Model_View_Presenter_GUI_Design_Pattern.png)
+![Model-View-Presenter:Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Model_View_Presenter_GUI_Design_Pattern.png/220px-Model_View_Presenter_GUI_Design_Pattern.png)
 
 ### 👊구조
 
@@ -101,7 +101,7 @@ MVC의 Controller와 비슷하지만 단순한 인터페이스이다. Model과 V
 ## MVVM
 MVC의 Model과 View 사이의 의존성과 Controller과 View 사이의 의존성 문제를 해결하기 위해 파생된 디자인 패턴이다. 
 
-![Model-View-Viewmodel | Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MVVMPattern.png/500px-MVVMPattern.png)
+![Model-View-Viewmodel:Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MVVMPattern.png/500px-MVVMPattern.png)
 
 ### 👊구조
 
