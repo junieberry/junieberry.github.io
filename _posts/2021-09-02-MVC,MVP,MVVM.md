@@ -97,6 +97,8 @@ MVC의 Controller와 비슷하지만 단순한 인터페이스이다. Model과 V
 - View와 Presenter의 의존성이 커진다.
 - 필요한 클래스 개수가 많다.
 
+----
+
 
 ## MVVM
 MVC의 Model과 View 사이의 의존성과 Controller과 View 사이의 의존성 문제를 해결하기 위해 파생된 디자인 패턴이다. 
@@ -132,10 +134,13 @@ View에 필요한 model이다. 안드로이드 aac의 ViewModel과는 다른 개
 - Model과 View 사이의 의존성이 없다.
 - View model과 View 사이의 의존성이 없다.
 
+-----
 
 ## TL;DR
 ```
-MVC는 Model-View-Controller로 이루어진 패턴으로, Controller에서 입력을 받아 Model과 View를 컨트롤한다. MVP는 Model-View-Presenter로 이루어진 패턴으로, View와 Model 사이에 Presenter이 위치해 의존도를 낮췄다. 마지막으로 MVVM은 Model-View-View model로 이루어진 패턴으로, DataBinding 등을 사용해 각 요소의 의존성을 낮췄다.
+MVC는 Model-View-Controller로 이루어진 패턴으로, Controller에서 입력을 받아 Model과 View를 컨트롤한다.
+MVP는 Model-View-Presenter로 이루어진 패턴으로, View와 Model 사이에 Presenter이 위치해 의존도를 낮췄다.
+마지막으로 MVVM은 Model-View-View model로 이루어진 패턴으로, DataBinding 등을 사용해 각 요소의 의존성을 낮췄다.
 ```
 
 각 패턴의 구성 요소들이 어떤 역할을 하고 각 계층이 어떻게 분리되는지 이해하는 게 중요한 것 같다. 어렵다.. 공부를 더 하고 내용을 더 추가해봐야할것 같다.
