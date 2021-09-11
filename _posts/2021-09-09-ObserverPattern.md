@@ -146,14 +146,14 @@ Observer는 `update` 메서드를 갖고 있는 인터페이스이다. 실제 Ob
 
 
  
-## TL;DR
- ```
- 옵저버 패턴을 통해 Subject와 Observer의 의존성을 줄일 수 있다.
-```
+### TL;DR
+ 
+ > 옵저버 패턴을 통해 Subject와 Observer의 의존성을 줄일 수 있다.
+
  
 
 
-## REF
+### REF
 [[디자인패턴] 2. 옵저버 패턴 개념과 예제 (observer pattern)](https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern)
 
 [Head First : Design Patterns - 제2강 : Observer 패턴 ](https://secretroute.tistory.com/entry/Head-First-Design-Patterns-%EC%A0%9C2%EA%B0%95-Observer-%ED%8C%A8%ED%84%B4)
