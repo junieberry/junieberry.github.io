@@ -7,7 +7,7 @@ layout: post
 ---
 
 
-LiveData와 찰떡궁합, MVVM의 기본 ViewModel에 대해 알아보자! 
+LiveData와 찰떡궁합, MVVM의 기본 ViewModel에 대해 알아보자ㄱㅣ! 
 
 ## ViewModel
 
