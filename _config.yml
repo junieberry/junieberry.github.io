@@ -15,7 +15,7 @@ rss:              RSS
 toc:
   enabled: true
   h_min: 1
-  h_max: 2
+  h_max: 3
 
 # markdown render engine.
 markdown:         kramdown
@@ -29,6 +29,7 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang:           true
 
+syntax_highlighter_style: colorful
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
