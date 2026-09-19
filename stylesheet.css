@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 16px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: 'PT Sans', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+h1, h2 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 0 56px 0;
+}
+
+.row-center {
+  text-align: center;
+}
+
+.row {
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 19px;
+  margin: 0 0 10px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e2e2e2;
+  margin: 44px 0;
+}
+
+a {
+  color: #3366bb;
+  text-decoration: none;
+  box-shadow: 0 -1px 0 0 #ffffff inset, 0 -3px 0 0 transparent inset;
+}
+
+a:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0 -0.5px 0 0 #ffffff inset, 0 -3px 0 0 #3366bb inset;
+}
+
+a:focus {
+  color: #3366bb;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 12px 0;
+}
+
+.intro p:last-child {
+  margin-bottom: 0;
+}
+
+.intro ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0 12px 0;
+}
+
+.intro ul li {
+  margin-bottom: 6px;
+}
+
+.aside {
+  color: #666666;
+  font-size: 14px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul li {
+  margin: 0 0 14px 0;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.papertitle {
+  font-style: italic;
+}
+
+.pub-tag {
+  color: #999999;
+  font-style: normal;
+  margin-right: 2px;
+}
+
+.pub-links {
+  font-size: 13.5px;
+}
+
+.note {
+  color: #999999;
+  font-size: 13px;
+}
+
+.entry {
+  margin-bottom: 16px;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 2px 12px;
+}
+
+.entry-title {
+  font-weight: 700;
+}
+
+.entry-org {
+  font-weight: 400;
+}
+
+.entry-role,
+.entry-meta {
+  font-style: italic;
+  color: #555555;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.entry-date {
+  color: #999999;
+  font-size: 13.5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .container {
+    padding: 32px 0 48px 0;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
