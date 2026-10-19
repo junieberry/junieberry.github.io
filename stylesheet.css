@@ -11,7 +11,7 @@ body {
   color: #1a1a1a;
   font-family: 'PT Sans', Verdana, Helvetica, sans-serif;
   font-size: 15px;
-  line-height: 1.55;
+  line-height: 1.45;
 }
 
 h1, h2 {
@@ -45,8 +45,7 @@ h2 {
 
 hr {
   border: none;
-  border-top: 1px solid #e2e2e2;
-  margin: 44px 0;
+  margin: 20px 0;
 }
 
 a {
@@ -66,7 +65,7 @@ a:focus {
 }
 
 p {
-  margin: 0 0 12px 0;
+  margin: 0 0 8px 0;
 }
 
 .intro p:last-child {
@@ -80,7 +79,7 @@ p {
 }
 
 .intro ul li {
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .aside {
@@ -122,7 +121,7 @@ ul li:last-child {
 }
 
 .entry {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .entry:last-child {
@@ -177,6 +176,20 @@ ul li:last-child {
 }
 
 @media (max-width: 560px) {
+  .header {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .header-text p {
+    text-align: left;
+  }
+
+  .header-text .header-links {
+    text-align: center;
+  }
+
   .container {
     padding: 32px 0 48px 0;
   }
@@ -186,20 +199,38 @@ ul li:last-child {
   }
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.header-text p:last-child {
+  margin-bottom: 0;
+}
+
+.header-links {
+  margin: 6px 0 16px 0;
+}
+
 .profile {
-  display: block;
   width: 160px;
   height: 160px;
-  margin: 0 auto 16px auto;
   object-fit: cover;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .pub {
   display: flex;
   align-items: flex-start;
   gap: 18px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 .pub-thumb {
