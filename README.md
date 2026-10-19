@@ -7,8 +7,9 @@ Personal homepage / CV site for Junyoung Kim, styled after
 
 - `index.html` — the page itself
 - `stylesheet.css` — styling (Lato font, blue/orange links, 800px centered layout)
-- `data/JunyoungKim-CV.pdf` — CV, linked from the page
-- `images/` — put a profile photo here (e.g. `profile.jpg`) if you want one
+- `data/curriculum_vitae.pdf` — CV, linked from the page
+- `images/` — `profile.jpg` (profile photo), `pub/` (paper figures), `apple-touch-icon.png`
+- `favicon.svg`, `favicon-32.png` — tab icon
 
 ## Editing
 
