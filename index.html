@@ -22,7 +22,7 @@
       <div class="header">
         <div class="header-text">
           <h1>Junyoung Kim</h1>
-          <p class="tagline">Information Retrieval &middot; Conversational Systems &middot; LLM Evaluation</p>
+          <p class="tagline">Natural Language Processing &middot; Information Retrieval &middot; Conversational Systems &middot; LLM Evaluation</p>
           <nav class="header-links">
             <a href="data/curriculum_vitae.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg>CV</a> <span class="sep">/</span>
             <a href="https://scholar.google.com/citations?user=BJKVp5UAAAAJ&hl=en"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>Google Scholar</a> <span class="sep">/</span>
@@ -54,7 +54,7 @@
         </p>
         <ul>
           <li><strong>Resolving Underspecified Intent</strong> [<a href="#pub1">1</a>, <a href="#pub2">2</a>, <a href="#pub4">4</a>, <a href="#pub5">5</a>] &mdash; exploring multiple plausible interpretations when a query or request is incomplete or ambiguous, and narrowing them with signals such as what users dislike.</li>
-          <li><strong>Evaluation Beyond a Single Answer</strong> [<a href="#pub3">3</a>] &mdash; reference-free evaluation of open-ended outputs that can be good in many different ways.</li>
+          <li><strong>Evaluation Beyond a Single Answer</strong> [<a href="#pub3">3</a>] &mdash; reference-free evaluation of open-ended outputs that can be good in many different ways, and LLM judges that adapt as evaluation criteria change, as in my work at Naver.</li>
         </ul>
         <p>
           My broader interest lies in using natural language to lower the barriers between people and
@@ -74,10 +74,10 @@
             <a class="pub-thumb" href="images/pub/bagel.png"><img src="images/pub/bagel.png" alt="Overview of BAGEL" loading="lazy"></a>
             <div class="pub-text">
               <div class="pub-meta"><span class="pub-tag">[1]</span><span class="venue">ACL Findings · 2026</span></div>
-              <div class="papertitle">Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring for Dense Passage Retrieval</div>
+              <div class="papertitle">[BAGEL] Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring for Dense Passage Retrieval</div>
               <div class="pub-authors"><strong>Junyoung Kim</strong>, Anton Korikov, Jiazhou Liang, Justin Cui, Yifan Simon Liu, Qianfeng Wen, Mark Zhao, Scott Sanner</div>
               <span class="pub-links">[<a href="https://aclanthology.org/2026.findings-acl.481/">paper</a>] [<a href="https://arxiv.org/abs/2604.17906">arXiv</a>] [<a href="https://github.com/junieberry/BAGEL">code</a>]</span>
-              <p class="pub-tldr">Uses a Gaussian Process to spread sparse LLM relevance scores, finding passages that dense retrievers miss.</p>
+              <p class="pub-tldr">Explores multiple clusters of relevant passages under a limited LLM budget, instead of committing to one interpretation of the query. Improves Recall@50 over LLM reranking by 36.2% on average at the same budget.</p>
             </div>
           </li>
 
@@ -99,7 +99,7 @@
               <div class="papertitle">Transparent Reference-free Automated Evaluation of Open-Ended User Survey Responses</div>
               <div class="pub-authors">Subin An*, Yugyeong Ji*, <strong>Junyoung Kim*</strong>, Heejin Kook*, Yang Lu, Josh Seltzer</div>
               <span class="pub-links">[<a href="https://aclanthology.org/2025.emnlp-industry.65/">paper</a>] [<a href="https://arxiv.org/abs/2510.06242">arXiv</a>]</span>
-              <p class="pub-tldr">Scores human-written survey responses on effort, relevance, and completeness, without reference answers.</p>
+              <p class="pub-tldr">Scores human-written survey responses on effort, relevance, and completeness, without reference answers. Now used by Nexxt Intelligence for quality control of survey responses.</p>
             </div>
           </li>
 
@@ -107,10 +107,10 @@
             <a class="pub-thumb" href="images/pub/coral.png"><img src="images/pub/coral.png" alt="Overview of CORAL" loading="lazy"></a>
             <div class="pub-text">
               <div class="pub-meta"><span class="pub-tag">[4]</span><span class="venue">NAACL · 2025</span></div>
-              <div class="papertitle">Empowering Retrieval-based Conversational Recommendation with Contrasting User Preferences</div>
+              <div class="papertitle">[CORAL] Empowering Retrieval-based Conversational Recommendation with Contrasting User Preferences</div>
               <div class="pub-authors">Heejin Kook*, <strong>Junyoung Kim*</strong>, Seongmin Park, Jongwuk Lee</div>
               <span class="pub-links">[<a href="https://aclanthology.org/2025.naacl-long.392/">paper</a>] [<a href="https://arxiv.org/abs/2503.22005">arXiv</a>] [<a href="https://github.com/kookeej/CORAL">code</a>]</span>
-              <p class="pub-tldr">Expands and separately learns what users like and dislike in a conversation.</p>
+              <p class="pub-tldr">Uses LLMs to infer implicit preferences and learns what users like and dislike separately, improving Recall@10 by 61.8% on average across three benchmarks.</p>
             </div>
           </li>
 
@@ -171,7 +171,7 @@
           </div>
           <div class="entry-role">AI Engineering Intern</div>
           <ul class="entry-list">
-            <li>Built a self-improving LLM-as-a-Judge system for search relevance annotation.</li>
+            <li>Worked on a self-improving LLM-as-a-Judge for search relevance annotation.</li>
           </ul>
         </div>
 
@@ -180,7 +180,7 @@
             <span class="entry-title">Angle Company</span>
             <span class="entry-date">Jan 2026 &ndash; Mar 2026</span>
           </div>
-          <div class="entry-role">AI Research Intern</div>
+          <div class="entry-role">AI Engineering Intern</div>
           <ul class="entry-list">
             <li>Built handwriting separation and preprocessing for OCR on insurance documents.</li>
           </ul>
@@ -220,12 +220,31 @@
         </div>
       </div>
 
+      <hr>
+
+      <div class="row">
+        <h2>Teaching</h2>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">Sungkyunkwan University<span class="entry-org">, South Korea</span></span>
+            <span class="entry-date">Fall 2023 &ndash; Fall 2024</span>
+          </div>
+          <div class="entry-role">Teaching Assistant</div>
+          <ul class="entry-list">
+            <li>Database Project (Fall 2024)</li>
+            <li>Introduction to Database (Spring 2024)</li>
+            <li>Fundamentals of Machine Learning (Fall 2023)</li>
+          </ul>
+        </div>
+      </div>
+
 
       <hr>
 
       <div class="row-center note">
         Based on a design by <a href="https://jonbarron.info/">Jon Barron</a>.<br>
-        Last updated by Junyoung Kim, Oct 2026.
+        Last updated by Junyoung Kim, Nov 2026.
       </div>
 
     </div>
